@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(cp:*)",
+      "Bash(npm install:*)",
+      "Bash(mkdir:*)",
+      "Bash(npx next:*)",
+      "Bash(npm run:*)",
+      "Bash(taskkill:*)",
+      "Bash(ngrok version:*)",
+      "Bash(where ngrok:*)",
+      "Bash(\"/c/Users/delfo/AppData/Roaming/npm/node_modules/ngrok/bin/ngrok.exe\" version:*)",
+      "Bash(curl -s http://localhost:4040/api/tunnels)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_fill_form",
+      "mcp__plugin_playwright_playwright__browser_click",
+      "mcp__plugin_playwright_playwright__browser_console_messages",
+      "Bash(curl -s http://localhost:3000/boxes/1 -o /dev/null -w \"%{http_code}\")",
+      "Bash(curl -s http://localhost:3000/store -o /dev/null -w \" %{http_code}\")"
+    ]
+  }
+}
